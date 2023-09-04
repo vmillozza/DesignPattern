@@ -55,6 +55,7 @@ class Manager implements Impiegato {
 
 	@Override
 	public void mostraDettagli() {
+		
 		System.out.println("Manager: " + nome);
 		System.out.println("Ceo: " + ceo);
 		for (Impiegato impiegato : sottoposti) {
